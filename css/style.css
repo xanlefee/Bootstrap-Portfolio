@@ -1,62 +1,63 @@
-
-
-
-
 body {
-font-family: 'Arial', sans-serif !important;
+    font-family: 'Arial', sans-serif !important;
+    text
 }
-  /*Navigation*/
+
+/*Navigation*/
 
 .navbar {
 
-   
-    width: 100%;
     background-color: blue !important;
-    background-size: cover;
-   justify-content: space-evenly !important;
-   
-    
-}
 
-.nav-link, .nav-link-active {
-
-color: azure;
-margin: 0px 35px;
-
-
+    justify-content: space-evenly !important;
+    display: flex;
+    padding: 2%;
 
 }
+
+.nav-link,
+.nav-link-active {
+
+    color: azure;
+    margin: 0px 35px;
+
+
+
+}
+
 /*Hero/Jumbotron Section*/
 
 .mepic {
     align-items: center;
     border-color: blue;
-    
+    border: 10px solid blue;
+    border-style: dashed;
+
 }
 
 .jumbo {
 
-  
-    background-image: url(/i);
+
+
     background-repeat: no-repeat;
     height:
-    display: flex;
+        display: flex;
     justify-content: center;
     padding: 0%;
-    
+
 
 }
 
 
 #jumbo1 {
 
-    
+
     color: rgb(0, 60, 255);
     text-align: center;
     align-items: center;
 
 
-   
+
 
 }
 
@@ -69,6 +70,33 @@ margin: 0px 35px;
 }
 
 /*Work/Portfolio Section*/
+
+.card {
+
+    padding: 5%;
+    border-radius: 20%;
+    margin-inline: 2%;
+    margin-block-end: 5%;
+    background-color: blue;
+}
+
+.card-img-top {
+
+    border-radius: 15%;
+}
+
+.card-text {
+
+    color: azure;
+}
+
+.card-title {
+    color: azure;
+}
+
+.sectionHeading {
+    color: blue;
+}
 
 #work {
 
@@ -84,23 +112,41 @@ margin: 0px 35px;
 
 }
 
+/*Image Hover Effect*/
+
+.hover:hover {
+    opacity: 0.4;
+}
+
+
 /*Skills/list Section*/
 
-#skills{
-width: 30%;
+#skills {
+
+    text-wrap: pretty;
+    color: blue;
+    border-color: blue;
+    border: 10px solid blue;
+    border-style: dashed;
+    border-radius: 45%;
+    padding: 5%;
+    margin: auto;
+    width: 50%;
+
 }
 
-.img {
-   
-}
+
+.img {}
+
 /*About/Contact section*/
 
 .goblet {
 
     padding-left: 20%;
-   padding-right: 20%;
+    padding-right: 20%;
     padding-top: 5%;
-   
+    padding-bottom: 10%;
+
 
     align-items: center;
 }
@@ -108,14 +154,13 @@ width: 30%;
 /*Footer Section*/
 
 .background {
-    background-image: url(/images/cloudbk-seamless.jpg);
+    background-image: url(../images/cloudbk-seamless.jpg);
     background-repeat: repeat;
     background-size: cover;
+
 }
 
-.footer {
- 
-}
+.footer {}
 
 
 
@@ -124,28 +169,27 @@ width: 30%;
 }
 
 .card-body {
-    display:inline;
+    display: inline;
 }
 
 .icons {
-   
+
     justify-content: space-evenly !important;
     display: flex;
     padding: 5%;
 }
-.h1{
-    
 
-   
-
-    
-}
+.h1 {}
 
 .h2 {
 
+    color: blue !important;
+
 }
 
-.h3 {
+.h3 {}
 
+.p {
 
+    color: azure !important;
 }
