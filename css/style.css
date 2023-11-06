@@ -1,17 +1,48 @@
-/*Navigation*/
 
+
+
+
+body {
+font-family: 'Arial', sans-serif !important;
+}
+  /*Navigation*/
+
+.navbar {
+
+   
+    width: 100%;
+    background-color: blue !important;
+    background-size: cover;
+   justify-content: space-evenly !important;
+   
+    
+}
+
+.nav-link, .nav-link-active {
+
+color: azure;
+margin: 0px 35px;
+
+
+
+}
 /*Hero/Jumbotron Section*/
+
+.mepic {
+    align-items: center;
+    border-color: blue;
+    
+}
 
 .jumbo {
 
   
-    background-image: url(/images/sun.png);
+    background-image: url(/i);
     background-repeat: no-repeat;
-    background-size: 50%;
-    height: calc(75vh - 15px);
+    height:
     display: flex;
-    align-items: center;
     justify-content: center;
+    padding: 0%;
     
 
 }
@@ -19,10 +50,13 @@
 
 #jumbo1 {
 
-    width: auto;
-    min-width: 500px;
-    color: blue;
+    
+    color: rgb(0, 60, 255);
     text-align: center;
+    align-items: center;
+
+
+   
 
 }
 
@@ -36,18 +70,24 @@
 
 /*Work/Portfolio Section*/
 
+#work {
+
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 .content {
 
     text-align: center;
-    padding: 5%;
+    padding: 2%;
+    size: 5%;
 
 }
 
 /*Skills/list Section*/
 
-.skills {
-    text-align: center;
-    padding: 15%;
+#skills{
+width: 30%;
 }
 
 .img {
@@ -57,7 +97,12 @@
 
 .goblet {
 
-    padding: 12%;
+    padding-left: 20%;
+   padding-right: 20%;
+    padding-top: 5%;
+   
+
+    align-items: center;
 }
 
 /*Footer Section*/
@@ -69,5 +114,38 @@
 }
 
 .footer {
-    justify-content: center;
+ 
+}
+
+
+
+#contact {
+    align-items: center !important;
+}
+
+.card-body {
+    display:inline;
+}
+
+.icons {
+   
+    justify-content: space-evenly !important;
+    display: flex;
+    padding: 5%;
+}
+.h1{
+    
+
+   
+
+    
+}
+
+.h2 {
+
+}
+
+.h3 {
+
+
 }
